@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+ nest-api:
+   image: nest-api 1df3ede22415
+   restart: always
+   container_name: nest-api
+   ports:
+     - '3000:3000'
