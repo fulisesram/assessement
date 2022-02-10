@@ -1,0 +1,5 @@
+FROM openjdk:11
+COPY . /usr/src/assessment
+WORKDIR /usr/src/assessement
+RUN javac Main.java
+CMD ["java", "Main"]
